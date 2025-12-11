@@ -155,4 +155,24 @@ I originally created a Python script that went through all of the active routes 
 
 This project requires manually updating the batch views (downloading, putting in hadoop, putting hdfs, recomputing whenever the new GTFS report comes out. A great improvement for this app would be to automate that process.
 
+# Sources
 
+1. Sharma, H. (2021, October 4). Read a JSON stream and write to Kafka — Spark. Medium.
+https://waytohksharma.medium.com/read-a-json-stream-and-write-to-kafka-spark-0b6491fa7cdf.
+
+2. TomTalksPython. (2021, December 9). Integrating PySpark with Apache Kafka. Medium.
+https://medium.com/tomtalkspython/integrating-pyspark-with-apache-kafka-6c395432e994.
+
+3. Apache Software Foundation. (n.d.). Structured Streaming + Kafka Integration Guide — Spark Documentation.
+https://spark.apache.org/docs/latest/streaming/structured-streaming-kafka-integration.html.
+
+4. Node.js Foundation. (n.d.). JavaScript asynchronous programming and callbacks. Node.js.
+https://nodejs.org/en/learn/asynchronous-work/javascript-asynchronous-programming-and-callbacks
+
+5. Mohammad. (2020, May 5). How to implement a callback in Node’s app.get function [Stack Overflow post]. Stack Overflow.
+https://stackoverflow.com/questions/64712352/how-to-implement-a-callback-in-nodes-app-get-function.
+
+6. avitex. (2011, February 6). Haversine formula in Python (bearing and distance between two GPS points) [Stack Overflow post]. Stack Overflow.
+https://stackoverflow.com/questions/4913349/haversine-formula-in-python-bearing-and-distance-between-two-gps-points.
+
+7. Kafka.js Contributors. (n.d.). Consuming — Kafka.js. https://kafka.js.org/docs/consuming.
