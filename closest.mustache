@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Nearest Vehicle for Route {{route}}</title>
+    <link type="text/css" rel="stylesheet" href="table.css" />
+</head>
+<body>
+<h1 style="text-align:center;">Nearest Vehicle to {{stop.stop_name}} ({{stop.stop_id}}) on Route {{route}}</h1>
+
+<table class="CSS_Table_Example" style="width:60%;margin:auto;">
+    <tr>
+        <th>Timestamp</th>
+        <th>Vehicle ID</th>
+        <th>Distance (miles)</th>
+        <th>Destination</th>
+        <th>ETA (minutes)</th>
+    </tr>
+    <tr>
+        <td>{{vehicle.tmstmp}}</td>
+        <td>{{vehicle.vid}}</td>
+        <td>{{distance_miles}}</td>
+        <td>{{vehicle.des}}</td>
+        <td>
+            {{#has_eta}}
+                {{eta_mins}}
+            {{/has_eta}}
+            {{^has_eta}}
+                N/A
+            {{/has_eta}}
+        </td>
+    </tr>
+</table>
+
+{{#has_eta}}
+    <p style="text-align:center;margin-top:5px;">
+        Vehicle traveling at an estimated speed of {{avg_speed_mph}} mph
+    </p>
+{{/has_eta}}
+
+</body>
+</html>

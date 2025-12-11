@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html>
+<head>
+    <title>CTA Vehicles</title>
+    <link type="text/css" rel="stylesheet" href="elegant-aero.css" />
+</head>
+<body style='background-image:URL("image.jpg");
+               background-repeat:no-repeat;
+               background-position:center top;
+               -webkit-background-size:100%;
+               -moz-background-size:100%;
+               -o-background-size:100%;
+               background-size: 100%;'>
+
+<p style="margin-bottom:2cm"></p>
+
+<form action="/stops.html"
+      method="get"
+      class="elegant-aero"
+      style="width:300px;margin:0 auto;"
+      target="results_iframe">
+    <label>
+        <span>Route:</span>
+        <input type="text" name="rt" value="15"/>
+    </label>
+    <label>
+        <span></span>
+        <input type="submit" value="Show Stops">
+    </label>
+</form>
+
+<p style="margin-bottom:2cm"></p>
+
+<iframe frameBorder="0"
+        name="results_iframe"
+        style="display:block;width:70%;height:80%;margin-left:auto;margin-right:auto">
+</iframe>
+
+</body>
+</html>

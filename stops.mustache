@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Stops for Route {{route}}</title>
+    <link type="text/css" rel="stylesheet" href="table.css" />
+</head>
+<body>
+<h1 style="text-align:center;">Stops for Route {{route}}</h1>
+
+<form action="/closest.html" method="get" style="width:60%;margin:auto;">
+    <input type="hidden" name="rt" value="{{route}}" />
+
+    <label>
+        Select a stop:
+        <select name="stop_id">
+            {{#stops}}
+                <option value="{{stop_id}}">
+                    {{stop_name}} ({{stop_id}})
+                </option>
+            {{/stops}}
+        </select>
+    </label>
+
+    <br/><br/>
+    <input type="submit" value="Find nearest vehicle" />
+</form>
+</body>
+</html>
