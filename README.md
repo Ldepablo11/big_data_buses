@@ -1,6 +1,6 @@
 # Bus Routes Project
 
-For my final project, I have built a web app that will provide estimated-times-of-arrival (ETAs) for bus routes in the city of Chicago leveraging real time bus locations, as well as heavily processed public data on bus routes, stop times, trips, and bus stops.
+For my final project, I have built a web app that will provide estimated-times-of-arrival (ETAs) for bus routes in the city of Chicago leveraging real time bus locations, as well as heavily processed public data on bus routes, stop times, trips, and bus stops. This concept is heavily inspired from the Mansueto Institute's Stop Watch project which you can find here: https://github.com/mansueto-institute/cta-stop-watch/tree/main/cta-stop-watch.
 
 ## Data Sources
 This project has two data sources, one for real time speed views and another for static batch views:
