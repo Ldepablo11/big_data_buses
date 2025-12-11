@@ -163,10 +163,10 @@ https://waytohksharma.medium.com/read-a-json-stream-and-write-to-kafka-spark-0b6
 2. TomTalksPython. (2021, December 9). Integrating PySpark with Apache Kafka. Medium.
 https://medium.com/tomtalkspython/integrating-pyspark-with-apache-kafka-6c395432e994.
 
-3. Apache Software Foundation. (n.d.). Structured Streaming + Kafka Integration Guide — Spark Documentation.
+3. Apache Software Foundation. Structured Streaming + Kafka Integration Guide — Spark Documentation.
 https://spark.apache.org/docs/latest/streaming/structured-streaming-kafka-integration.html.
 
-4. Node.js Foundation. (n.d.). JavaScript asynchronous programming and callbacks. Node.js.
+4. Node.js Foundation. JavaScript asynchronous programming and callbacks. Node.js.
 https://nodejs.org/en/learn/asynchronous-work/javascript-asynchronous-programming-and-callbacks
 
 5. Mohammad. (2020, May 5). How to implement a callback in Node’s app.get function [Stack Overflow post]. Stack Overflow.
@@ -175,4 +175,4 @@ https://stackoverflow.com/questions/64712352/how-to-implement-a-callback-in-node
 6. avitex. (2011, February 6). Haversine formula in Python (bearing and distance between two GPS points) [Stack Overflow post]. Stack Overflow.
 https://stackoverflow.com/questions/4913349/haversine-formula-in-python-bearing-and-distance-between-two-gps-points.
 
-7. Kafka.js Contributors. (n.d.). Consuming — Kafka.js. https://kafka.js.org/docs/consuming.
+7. Kafka.js Contributors. Consuming — Kafka.js. https://kafka.js.org/docs/consuming.
