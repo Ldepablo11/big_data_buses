@@ -157,6 +157,9 @@ This project requires manually updating the batch views (downloading, putting in
 
 # Sources
 
+#### AI:
+Used ChatGPT to debug errors relating to Kafka streaming, the web app, and general technical issues with the cluster.
+
 1. Sharma, H. (2021, October 4). Read a JSON stream and write to Kafka — Spark. Medium.
 https://waytohksharma.medium.com/read-a-json-stream-and-write-to-kafka-spark-0b6491fa7cdf.
 
